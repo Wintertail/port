@@ -1,0 +1,43 @@
+html, body{
+    scroll-behavior:smooth;
+    padding:0%;
+    margin:0%;
+    background-color:rgb(236, 236, 236);
+    width:100%;
+    display:flex;
+    height:100%;
+}
+
+.left{
+    float:left;
+    width:33%;
+    
+}
+
+.mid{
+    width:100%;
+    border-left: 1px dotted rgb(138, 138, 138);
+    border-right:1px dotted rgb(138, 138, 138);
+    height:100%;
+    background-color:rgb(255, 255, 255);
+}
+
+.right{
+    width:33%;
+}
+
+.header{
+    margin:20%;
+}
+
+.projects{
+    margin:15%;
+    padding-left:2%;
+    padding-right:5%;
+    border: 1px dashed black;
+    width:fit-content;
+    background-color:rgb(193, 241, 229)
+}
+.project-title{font-size:30px;}
+
+a{text-decoration:none; color:rgb(6, 197, 255);font-size:20px;}
